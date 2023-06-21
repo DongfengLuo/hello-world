@@ -26,7 +26,7 @@ project(
 # Other common choices are STATIC, SHARED, and MODULE
 # Including header files here helps IDEs but is not required.
 # Output libname matches target name, with the usual extensions on your system
-add_library(MyLibExample thislib.cpp thislib.hpp)
+add_library(MyLibExample thislib.cpp thislib.h)
 
 # Link each target with other targets or add options, etc.
 

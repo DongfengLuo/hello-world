@@ -1,6 +1,6 @@
 // This is an example file as part of Modern-CMake
 
-#include "thislib.hpp"
+#include "thislib.h"
 
 #include <iostream>
 
