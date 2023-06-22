@@ -20,8 +20,8 @@ pipeline
 		echo 'Start Build..'
 		sh "ls"
 		sh "mkdir build"
-		sh "cd build"
 		sh "ls"
+		sh "cd build"
 		sh "cmake ../"
 		sh "make"
 
