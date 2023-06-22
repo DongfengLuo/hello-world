@@ -19,7 +19,8 @@ pipeline
       {
 		echo 'Start Build..'
 		sh "ls"
-		sh "mkdir build && cd build"
+		sh "mkdir build"
+		sh "cd build"
 		sh "ls"
 		sh "cmake ../"
 		sh "make"
