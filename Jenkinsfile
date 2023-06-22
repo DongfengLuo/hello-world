@@ -18,8 +18,8 @@ pipeline
       steps 
       {
 		echo 'Start Build..'
-		sh "mkdir build && cd build"
-		/*sh "cmake .."
+		/*sh "mkdir build && cd build"
+		sh "cmake .."
 		sh "make"*/
 
       }
