@@ -17,9 +17,10 @@ pipeline
       agent any
       steps 
       {
+		echo 'Start Build..'
 		sh "mkdir build && de build"
-		sh "cmake .."
-		sh "make"
+		/*sh "cmake .."
+		sh "make"*/
 
       }
     } 
