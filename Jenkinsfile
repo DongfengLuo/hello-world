@@ -19,7 +19,7 @@ pipeline
       {
 		echo 'Start Build..'
 	
-		sh "cmake .."
+		sh "cmake"
 		sh "make"
 
       }
