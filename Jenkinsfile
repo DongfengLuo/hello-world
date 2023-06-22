@@ -9,6 +9,8 @@ pipeline
       steps 
       {
         echo 'Start Pipeline..'
+		sh "mkdir build"
+		sh "ls"
       }
     }
 
@@ -17,14 +19,12 @@ pipeline
       agent any
       steps 
       {
+	  dir('build'){
 		echo 'Start Build..'
 		sh "ls"
-		sh "mkdir build"
-		sh "ls"
-		sh "cd ./build"
 		sh "cmake ../"
 		sh "make"
-
+		}
       }
     } 
 
